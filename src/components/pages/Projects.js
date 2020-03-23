@@ -1,8 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 
 function Projects() {
     return (
-        <h1>Hello Projects</h1>
+        <div>
+            <h1>Projects</h1>
+        </div>
     );
 };
 
