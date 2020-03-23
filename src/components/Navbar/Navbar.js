@@ -10,14 +10,14 @@ function Navbar(props) {
             </button>
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul className="navbar-nav">
-                    <li className="nav-item active">
+                    <li className="nav-item">
                         <a onClick={() => props.handlePageChange("Home")} className={props.currentPage === "Home" ? "nav-link active" : "nav-link"} href="#">Home <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item">
                         <a onClick={() => props.handlePageChange("Projects")}  className={props.currentPage === "Projects" ? "nav-link active" : "nav-link"} href="#">Projects</a>
                     </li>
-                    <li onClick={() => props.handlePageChange("Contact")} className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}>
-                        <a className="nav-link" href="#">Contact</a>
+                    <li className="nav-item">
+                        <a onClick={() => props.handlePageChange("Contact")}className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"} href="#">Contact</a>
                     </li>
                 </ul>
             </div>

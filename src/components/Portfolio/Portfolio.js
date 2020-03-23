@@ -27,7 +27,7 @@ class Portfolio extends Component {
                 <Navbar currentPage={this.state.currentPage} handlePageChange={this.handlePageChange} />
                 {this.renderPage()}
             </div>
-        )
-    }
-}
+        );
+    };
+};
 export default Portfolio;

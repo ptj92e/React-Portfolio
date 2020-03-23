@@ -1,8 +1,11 @@
 import React from "react";
+import ContactTitle from "../ContactTitle/ContactTitle";
 
 function Contact() {
     return (
-        <h1>Hello Contact</h1>
+        <div>
+            <ContactTitle />
+        </div>
     );
 };
 
