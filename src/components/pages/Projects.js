@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import ProjectTitle from "../ProjectTitle/ProjectTitle";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import data from "../../utils/data.json";
-// import Wrapper from "../Wrapper/Wrapper";
 
 class Projects extends Component {
     state = {
@@ -15,6 +14,7 @@ class Projects extends Component {
                 <div className="container projectContainer">
                     {this.state.projects.map(project => (
                         <ProjectCard
+                            id={project.id}
                             title={project.title}
                             technologies={project.technologies}
                             description={project.description}
