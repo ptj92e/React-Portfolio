@@ -1,3 +1,43 @@
 .projectContainer {
     margin-top: 0px; 
 }
+.leftCard {
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+.leftCard img {
+    height: 45vh;
+    width: 40%;
+    float: left;
+}
+.leftCard h1 {
+    font-size: 25px;
+}
+.leftCard h3 {
+    font-size: 20px;
+}
+.leftCard p {
+    font-size: 15px;
+}
+.rightCard {
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+.rightCard img {
+    height: 45vh;
+    width: 40%;
+    float: right;
+}
+.rightCard h1 {
+    font-size: 25px;
+}
+.rightCard h3 {
+    font-size: 20px;
+}
+.rightCard p {
+    font-size: 15px;
+}

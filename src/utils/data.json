@@ -17,6 +17,15 @@
             "image": "../images/EnderMaze.jpg",
             "github": "https://github.com/ptj92e/The-Ender-Maze",
             "heroku": "https://arcane-plains-16309.herokuapp.com/"
+        },
+        {
+            "id": 3,
+            "title": "Burger Logger",
+            "technologies": "Sequelize, mySQL, Express.js, Handlebars.js",
+            "description": "This is a full stack application utilizing Sequelize to manipulate a mySQL server to post and view a burger wish list. This app uses a mySQL connection as well as Handlebars.js to populate the list of burgers on the screen.",
+            "image": "../images/BurgerLogger.jpg",
+            "github": "https://github.com/ptj92e/Burger-Logger",
+            "heroku": "https://immense-shelf-89251.herokuapp.com/"
         }
     ]
 }
