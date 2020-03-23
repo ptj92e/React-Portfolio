@@ -1,0 +1,12 @@
+{
+    "Projects": [
+        {
+            "Title": "Employee Directory",
+            "Technologies": "React.js, rest API",
+            "Description": "An app that displays an Employee Directory from a random user API. The directory can be filtered to show employees based off of gender.",
+            "Image": "",
+            "GitHub": "https://github.com/ptj92e/Employee-Directory",
+            "Heroku": "https://obscure-waters-52198.herokuapp.com/"
+        }
+    ]
+}

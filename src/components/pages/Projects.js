@@ -1,9 +1,10 @@
 import React from "react";
+import ProjectTitle from "../ProjectTitle/ProjectTitle";
 
 function Projects() {
     return (
         <div>
-            <h1>Projects</h1>
+            <ProjectTitle />
         </div>
     );
 };
