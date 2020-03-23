@@ -8,6 +8,15 @@
             "image": "../images/EmployeeDirectory.jpg",
             "github": "https://github.com/ptj92e/Employee-Directory",
             "heroku": "https://obscure-waters-52198.herokuapp.com/"
+        },
+        {
+            "id": 2,
+            "title": "The Ender Maze",
+            "technologies": "mySQL, Handlebars.js, Express.js",
+            "description": "An RPG where you can create your own class and go through a maze as your character fighting enemies and solving puzzles.",
+            "image": "../images/EnderMaze.jpg",
+            "github": "https://github.com/ptj92e/The-Ender-Maze",
+            "heroku": "https://arcane-plains-16309.herokuapp.com/"
         }
     ]
 }
