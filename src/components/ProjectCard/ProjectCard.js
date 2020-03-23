@@ -4,7 +4,7 @@ import { prototype } from "events";
 
 function ProjectCard(props) {
     return (
-        <div id={props.id}>
+        <div className={props.className} id={props.id}>
             <img src={props.image} alt={props.title}/>
             <h1>{props.title}</h1>
             <h3>Technologies:</h3>

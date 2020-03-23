@@ -12,17 +12,31 @@ class Projects extends Component {
             <div>
                 <ProjectTitle />
                 <div className="container projectContainer">
-                    {this.state.projects.map(project => (
-                        <ProjectCard
-                            id={project.id}
-                            title={project.title}
-                            technologies={project.technologies}
-                            description={project.description}
-                            image={project.image}
-                            github={project.github}
-                            heroku={project.heroku}
-                        />
-                    ))}
+                    {this.state.projects.map(project => 
+                        (project.id % 2 === 0) ? (
+                            <ProjectCard
+                                className="rightCard"
+                                id={project.id}
+                                title={project.title}
+                                technologies={project.technologies}
+                                description={project.description}
+                                image={project.image}
+                                github={project.github}
+                                heroku={project.heroku}
+                            />
+                        ) : (
+                            <ProjectCard
+                                className="leftCard"
+                                id={project.id}
+                                title={project.title}
+                                technologies={project.technologies}
+                                description={project.description}
+                                image={project.image}
+                                github={project.github}
+                                heroku={project.heroku}
+                            />
+                        )
+                    )}
                 </div>
             </div>
         );
