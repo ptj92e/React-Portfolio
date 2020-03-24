@@ -1,10 +1,8 @@
 nav {
-    /* height: 8vh; */
     font-family: 'Oxanium', cursive;
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
-    background-color: #0b0c10;
 }
 nav a {
     color: #66fcf1;
@@ -19,9 +17,11 @@ nav button span {
 .sticky {
     position: fixed;
     top: 0;
-    /* width: 100%; */
 }
 @media only screen and (max-width: 800px) {
+    nav {
+        background-color: #0b0c10;
+    }
     .sticky {
         width: 100%;
     }
