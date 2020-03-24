@@ -1,6 +1,26 @@
 .container {
     height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
 }
 .title {
     margin-top: 10vh;
+    font-family: 'Oxanium', cursive;
+}
+.textDiv {
+    width: 100%;
+    margin-top: 10vh;
+    text-align: center;
+    align-self: center;
+}
+.textDiv h1 {
+    font-size: 65px;
+}
+.scrollDiv {
+    width: 100%;
+    text-align: center;
+    align-self: flex-end;
+}
+.scrollDiv p {
+    font-size: 30px;
 }

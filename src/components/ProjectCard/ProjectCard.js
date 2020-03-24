@@ -1,6 +1,5 @@
 import React from "react";
 import "./ProjectCard.css";
-import { prototype } from "events";
 
 function ProjectCard(props) {
     return (
