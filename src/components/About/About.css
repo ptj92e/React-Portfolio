@@ -1,7 +1,56 @@
 .aboutDiv {
+    margin-top: 5vh;
+    margin-bottom: 1vh;
     font-family: 'Oxanium', cursive;
+    width: 100%;
+    min-height: 85vh;
 }
 .aboutDiv h1 {
-    font-size: 50px;
+    font-size: 60px;
+    margin-left: 100px;
     margin-top: 20px;
+    padding-top: 75px;
+}
+#infoDiv {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+i {
+    margin-bottom: 10px;
+}
+#infoDiv div {
+    background-color: blue;
+    color: white;
+}
+#pastDiv {
+    padding: 25px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 4%;
+    border-radius: 30px; 
+}
+#programmerDiv {
+    padding: 25px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 4%;
+    border-radius: 30px;
+}
+#funDiv {
+    padding: 25px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 4%;
+    border-radius: 30px;
+}
+@media only screen and (max-width: 900px) {
+    .aboutDiv h1 {
+        margin-left: 0px;
+        text-align: center;
+    }
+    #infoDiv {
+        display: block;
+    }
 }

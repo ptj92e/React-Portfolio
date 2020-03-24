@@ -3,7 +3,7 @@ import "./Title.css";
 
 function Title() {
     return (
-        <div className="container title">
+        <div className="title">
             <div className="textDiv">
                 <h4>Welcome to the portfolio of</h4>
                 <h1>Phillip Jones</h1>
