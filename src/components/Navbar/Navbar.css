@@ -1,12 +1,20 @@
 nav {
-    height: 8vh;
+    /* height: 8vh; */
     font-family: 'Oxanium', cursive;
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
+    background-color: #0b0c10;
 }
-nav button {
-    color: black;
+nav a {
+    color: #66fcf1;
+
+}
+nav a:hover {
+    color: #45a29e;
+}
+nav button span {
+    background-color: #66fcf1;
 }
 .sticky {
     position: fixed;

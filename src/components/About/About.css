@@ -2,6 +2,7 @@
     margin-top: 5vh;
     margin-bottom: 1vh;
     font-family: 'Oxanium', cursive;
+    background-color: white;
     width: 100%;
     min-height: 85vh;
 }
@@ -21,8 +22,8 @@ i {
     margin-bottom: 10px;
 }
 #infoDiv div {
-    background-color: blue;
-    color: white;
+    background-color: #66fcf1;
+    color: #1f2833;
 }
 #pastDiv {
     padding: 25px;
