@@ -13,21 +13,9 @@ class Projects extends Component {
                 <ProjectTitle />
                 <div className="projectContainer">
                     {this.state.projects.map(project => 
-                        (project.id % 2 === 0) ? (
+                        (
                             <ProjectCard
-                                className="rightCard"
-                                key={project.title}
-                                id={project.id}
-                                title={project.title}
-                                technologies={project.technologies}
-                                description={project.description}
-                                image={project.image}
-                                github={project.github}
-                                heroku={project.heroku}
-                            />
-                        ) : (
-                            <ProjectCard
-                                className="leftCard"
+                                className="projectCard"
                                 key={project.title}
                                 id={project.id}
                                 title={project.title}

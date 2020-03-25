@@ -1,5 +1,4 @@
 .projectTitle {
-    margin-top: 8vh;
     width: 100%;
     padding: 50px;
     background-color: #c5c6c7;
@@ -7,9 +6,16 @@
     font-family: 'Oxanium', cursive;
 }
 .projectTitle h1 {
+    margin-top: 9vh;
     font-size: 60px;
     margin-left: 50px;
 }
 .projectTitle p {
     text-align: center;
+}
+@media only screen and (max-width: 800px) {
+    .projectTitle h1 {
+        text-align: center;
+        margin-left: 0px;
+    }
 }

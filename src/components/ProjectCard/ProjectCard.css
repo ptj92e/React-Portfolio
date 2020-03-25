@@ -1,59 +1,64 @@
 .projectContainer {
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
+    font-family: 'Oxanium', cursive;
 }
-#projectText {
-    display: block;
+.projectCard {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+.projectCard h1 {
     text-align: center;
-    overflow: auto;
+    margin-top: 15px;
+    padding: 10px;
 }
-.leftCard {
-    width: 65%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    padding: 15px;
-    border: 1px solid black;
-}
-.leftCard img {
-    height: 95%;
-    width: 40%;
-    float: left;
-}
-.leftCard h1 {
-    font-size: 25px;
-}
-.leftCard h3 {
-    font-size: 20px;
-}
-.leftCard p {
-    font-size: 15px;
-}
-.rightCard {
-    width: 65%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    padding: 15px;
-    border: 1px solid black;
-}
-.rightCard img {
-    height: 95%;
-    width: 40%;
-    float: right;
-}
-.rightCard h1 {
-    font-size: 25px;
-}
-.rightCard h3 {
-    font-size: 20px;
-}
-.rightCard p {
-    font-size: 15px;
+#linkDiv {
+    text-align: center;
 }
 #linkDiv a {
-    margin-left: 5px;
-    margin-right: 5px; 
+    justify-self: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+img {
+    width: 35%;
+    height: 175px;
+    padding: 15px;
+    border-radius: 30px;
+    float: left;
+}
+#projectText {
+    overflow: auto;
+    padding: 15px;
+}
+@media only screen and (max-width: 992px) {
+    img {
+        width: 60%;
+        height: 225px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    img {
+        
+        width: 100%;
+        height: 275px;
+        float: none;
+    }
+    #projectText {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 576px) {
+    img {
+        
+        height: 200px;
+        float: none;
+    }
+    #projectText {
+        text-align: center;
+    }
 }
