@@ -17,6 +17,7 @@ class Projects extends Component {
                         (project.id % 2 === 0) ? (
                             <ProjectCard
                                 className="rightCard"
+                                key={project.title}
                                 id={project.id}
                                 title={project.title}
                                 technologies={project.technologies}
@@ -28,6 +29,7 @@ class Projects extends Component {
                         ) : (
                             <ProjectCard
                                 className="leftCard"
+                                key={project.title}
                                 id={project.id}
                                 title={project.title}
                                 technologies={project.technologies}
