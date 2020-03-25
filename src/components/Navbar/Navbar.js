@@ -6,7 +6,7 @@ function Navbar(props) {
         <nav className="navbar navbar-expand-lg sticky">
             <a className="navbar-brand" href="#">Phillip Jones</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i id="hamburger" class="fas fa-bars fa-lg"></i>
+                <i id="hamburger" className="fas fa-bars fa-lg"></i>
             </button>
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul className="navbar-nav">
