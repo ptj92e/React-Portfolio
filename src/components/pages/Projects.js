@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import ProjectTitle from "../ProjectTitle/ProjectTitle";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import data from "../../utils/data.json";
-import Footer from "../Footer/Footer";
 
 class Projects extends Component {
     state = {
@@ -12,7 +11,7 @@ class Projects extends Component {
         return (
             <div>
                 <ProjectTitle />
-                <div className="container projectContainer">
+                <div className="projectContainer">
                     {this.state.projects.map(project => 
                         (project.id % 2 === 0) ? (
                             <ProjectCard
@@ -41,7 +40,6 @@ class Projects extends Component {
                         )
                     )}
                 </div>
-                <Footer />
             </div>
         );
     }

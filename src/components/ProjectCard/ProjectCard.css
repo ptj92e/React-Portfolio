@@ -1,14 +1,23 @@
 .projectContainer {
-    margin-top: 0px; 
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#projectText {
+    display: block;
+    text-align: center;
+    overflow: auto;
 }
 .leftCard {
-    text-align: center;
-    margin: 15px;
-    padding: 5px;
-    box-shadow: 5px 5px 5px black;
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid black;
 }
 .leftCard img {
-    height: 45vh;
+    height: 95%;
     width: 40%;
     float: left;
 }
@@ -22,13 +31,16 @@
     font-size: 15px;
 }
 .rightCard {
-    text-align: center;
-    margin: 15px;
-    padding: 5px;
-    box-shadow: 5px 5px 5px black;
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid black;
 }
 .rightCard img {
-    height: 45vh;
+    height: 95%;
     width: 40%;
     float: right;
 }
@@ -40,4 +52,8 @@
 }
 .rightCard p {
     font-size: 15px;
+}
+#linkDiv a {
+    margin-left: 5px;
+    margin-right: 5px; 
 }

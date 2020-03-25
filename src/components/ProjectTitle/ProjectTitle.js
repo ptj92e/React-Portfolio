@@ -3,11 +3,9 @@ import "./ProjectTitle.css";
 
 function ProjectTitle() {
     return (
-        <div className="container projectTitle">
-            <h1>Phillip's Work</h1>
-            <p>Here is where I will talk about the work I have done and my experience coding.</p>
-            <h2>Technologies:</h2>
-            <p>Here is where I will list the technologies I have learned.</p>
+        <div className="projectTitle">
+            <h1>My Work:</h1>
+            <p>Spicy jalapeno bacon ipsum dolor amet pariatur hamburger deserunt, chislic minim ut ullamco jowl. Bacon meatloaf pork belly tempor frankfurter anim bresaola in excepteur filet mignon shankle chicken incididunt. Ham hock incididunt dolor, pork belly labore enim qui culpa mollit salami. Qui swine aute burgdoggen, minim tongue commodo aliquip shoulder rump short ribs pig corned beef meatloaf ipsum.</p>
         </div>
     );
 };

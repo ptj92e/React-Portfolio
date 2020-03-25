@@ -4,7 +4,7 @@ import "./About.css";
 function About() {
     return (
         <div className="aboutDiv">
-            <h1>About Phillip:</h1>
+            <h1>About Me:</h1>
             <div id="infoDiv">
                 <div id="pastDiv">
                     <i className="fas fa-headphones fa-5x"></i>
