@@ -1,0 +1,12 @@
+#socialDiv {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    text-align: center;
+    font-family: 'Oxanium', cursive;
+}
+#iconsDiv a {
+    margin-left: 15px;
+    margin-right: 15px;
+}
