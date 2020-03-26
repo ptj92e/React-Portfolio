@@ -27,7 +27,7 @@ function ContactForm() {
           email: "",
           message: ""
         }))
-        .then(() => console.log("Email Sent." + formObject))
+        .then(() => console.log("Email Sent."))
         .catch(err => console.log(err));
     }
   };
