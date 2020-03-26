@@ -16,7 +16,7 @@ router.post("/send", function (req, res) {
         from: req.body.email,
         to: "ptj92e@gmail.com",
         subject: req.body.fullName,
-        text: req.body.message
+        text: req.body.email + " : " +req.body.message
     };
     transporter.sendMail(mailOptions, (err, info) => {
         console.log(req.body);
