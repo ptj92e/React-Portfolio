@@ -27,7 +27,10 @@ function ContactForm() {
           email: "",
           message: ""
         }))
-        .then(() => console.log("Email Sent."))
+        .then(() => {
+          console.log("Email Sent.")
+          window.location.reload();
+        })
         .catch(err => console.log(err));
     }
   };

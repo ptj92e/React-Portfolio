@@ -26,7 +26,7 @@ router.post("/send", function (req, res) {
         console.log("Message has been sent: ", info.messageId, info.response);
     });
     res.status(200);
-    res.end();
+    res.json();
 });
 
 module.exports = router;
