@@ -2,6 +2,7 @@ const router = require("express").Router();
 let nodeMailer = require("nodemailer");
 
 router.post("/send", function(req, res) {
+    console.log(req.body);
     let transporter = nodeMailer.createTransport({
         host: "smtp.gmail.com",
         port: 465,
