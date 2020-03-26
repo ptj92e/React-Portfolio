@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./ContactForm.css";
+import API from "../../utils/API";
 
 function ContactForm() {
     const [formObject, setFormObject] = useState({
@@ -11,8 +12,25 @@ function ContactForm() {
     function handleInputChange(event) {
         const { name, value } = event.target;
         setFormObject({...formObject, [name]: value});
-        console.log(formObject);
     };
+
+    function handleFormSubmit(event) {
+        event.preventDefault();
+        if (formObject.fullName && formObject.email) {
+          API.sendEmail({
+            fullName: formObject.fullName,
+            email: formObject.email,
+            message: formObject.message
+          })
+            .then(() => setFormObject({
+              fullName: "",
+              email: "",
+              message: ""
+            }))
+            .then(() => console.log("Email Sent." + formObject))
+            .catch(err => console.log(err));
+        }
+      };
 
     return (
         <form id="contactForm">
@@ -22,7 +40,7 @@ function ContactForm() {
             <input type="text" onChange={handleInputChange} name="email"></input><br />
             <label htmlFor="message">Message:</label><br />
             <textarea type="text" onChange={handleInputChange} name="message"></textarea><br />
-            <button id="submitForm">Submit</button>
+            <button id="submitForm" onClick={handleFormSubmit}>Submit</button>
         </form>
     )
 }
