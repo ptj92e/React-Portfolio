@@ -1,5 +1,4 @@
 .projectContainer {
-
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #aaabb8;
@@ -21,6 +20,10 @@
     text-align: center;
     margin-top: 15px;
     padding: 10px;
+}
+.projectCard:hover {
+    background-color: #29648a;
+    box-shadow: 0px 0px 10px #2e9cca, 0px 0px 10px #2e9cca;
 }
 #linkDiv {
     text-align: center;

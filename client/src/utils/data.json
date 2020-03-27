@@ -22,10 +22,28 @@
             "id": 3,
             "title": "Burger Logger",
             "technologies": "Sequelize, mySQL, Express.js, Handlebars.js",
-            "description": "This is a full stack application utilizing Sequelize to manipulate a mySQL server to post and view a burger wish list. This app uses a mySQL connection as well as Handlebars.js to populate the list of burgers on the screen.",
+            "description": "This app allows users to update a burger wish list. There is a button for each burger that, when clicked, shows that you have eaten that burger.",
             "image": "../images/BurgerLogger.jpg",
             "github": "https://github.com/ptj92e/Burger-Logger",
             "heroku": "https://immense-shelf-89251.herokuapp.com/"
+        },
+        {
+            "id": 4,
+            "title": "Note Taker",
+            "technologies": "Express, FS",
+            "description": "A note taking app that allows users to save notes to a JSON file. The user can view the notes and delete them when they are finished.",
+            "image": "../images/NoteTaker.jpg",
+            "github": "https://github.com/ptj92e/Note-Taker",
+            "heroku": "https://dashboard.heroku.com/apps/warm-refuge-36790"
+        },
+        {
+            "id": 5,
+            "title": "Workout Tracker",
+            "technologies": "",
+            "description": "An application that allows you to keep up with your workouts. You can either update an existing workout, or create a new one.",
+            "image": "../images/WorkoutTracker.jpg",
+            "github": "https://github.com/ptj92e/Workout-Tracker",
+            "heroku": "https://quiet-fortress-04167.herokuapp.com/?id=5e6d0278f48be000174aa6d9"
         }
     ]
 }

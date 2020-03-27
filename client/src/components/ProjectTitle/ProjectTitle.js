@@ -5,7 +5,7 @@ function ProjectTitle() {
     return (
         <div className="projectTitle">
             <h1>My Work:</h1>
-            <p>Spicy jalapeno bacon ipsum dolor amet pariatur hamburger deserunt, chislic minim ut ullamco jowl. Bacon meatloaf pork belly tempor frankfurter anim bresaola in excepteur filet mignon shankle chicken incididunt. Ham hock incididunt dolor, pork belly labore enim qui culpa mollit salami. Qui swine aute burgdoggen, minim tongue commodo aliquip shoulder rump short ribs pig corned beef meatloaf ipsum.</p>
+            <p>I am a full stack web developer with a passion for responsive user experiences.<br />I enjoy working with HTML, CSS, and JavaScript, but my favorite front end framework is React.js. My projects also include mySQL and MongoDB databased featuring Node.js and Express.js servers.</p>
         </div>
     );
 };
