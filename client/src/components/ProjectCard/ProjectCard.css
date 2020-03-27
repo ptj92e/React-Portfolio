@@ -14,7 +14,7 @@
     border-radius: 30px;
     background-color: #2e9cca;
     color: #25274d;
-    box-shadow: 5px 5px 5px #25274d;
+    box-shadow: 0px 0px 10px #25274d, 0px 0px 10px #25274d;
 }
 .projectCard h1 {
     text-align: center;

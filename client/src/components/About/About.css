@@ -32,7 +32,7 @@ i {
     margin-right: 2%;
     margin-top: 4%;
     border-radius: 30px;
-    box-shadow: 5px 5px 5px #25274d; 
+    box-shadow: 0px 0px 10px #25274d, 0px 0px 10px #25274d;; 
 }
 #programmerDiv {
     padding: 25px;
@@ -40,7 +40,7 @@ i {
     margin-right: 2%;
     margin-top: 4%;
     border-radius: 30px;
-    box-shadow: 5px 5px 5px #25274d;
+    box-shadow: 0px 0px 10px #25274d, 0px 0px 10px #25274d;;
 }
 #funDiv {
     padding: 25px;
@@ -48,7 +48,7 @@ i {
     margin-right: 2%;
     margin-top: 4%;
     border-radius: 30px;
-    box-shadow: 5px 5px 5px #25274d;
+    box-shadow: 0px 0px 10px #25274d, 0px 0px 10px #25274d;;
 }
 @media only screen and (max-width: 900px) {
     .aboutDiv h1 {
