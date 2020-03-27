@@ -1,10 +1,9 @@
 .aboutDiv {
     margin-top: 5vh;
-    margin-bottom: 1vh;
     font-family: 'Oxanium', cursive;
     background-color: #aaabb8;
     width: 100%;
-    min-height: 85vh;
+    min-height: 88vh;
 }
 .aboutDiv h1 {
     font-size: 60px;
