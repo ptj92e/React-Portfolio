@@ -24,6 +24,7 @@
     "express": "^4.16.3",
     "if-env": "^1.0.4",
     "nodemailer": "^6.4.6",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "react-responsive-canvas": "^1.0.2"
   }
 }
