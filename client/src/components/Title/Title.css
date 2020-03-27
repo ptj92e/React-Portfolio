@@ -11,7 +11,7 @@
     margin-top: 5vh;
     text-align: center;
     align-self: center;
-    color: #66fcf1;
+    color: #2e9cca;
 }
 .textDiv h1 {
     font-size: 65px;
@@ -20,7 +20,7 @@
     width: 100%;
     text-align: center;
     align-self: flex-end;
-    color: #66fcf1;
+    color: #2e9cca;
 }
 .scrollDiv p {
     font-size: 30px;

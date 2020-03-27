@@ -1,5 +1,12 @@
 .contactTitle {
-    padding-top: 10vh;
+    padding: 50px;
     width: 100%;
+    color: #2e9cca;
     font-family: 'Oxanium', cursive;
+}
+.contactTitle h1 {
+    margin-top: 9vh;
+}
+.contactTitle p {
+    text-align: center;
 }

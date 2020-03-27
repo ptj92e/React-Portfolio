@@ -2,7 +2,7 @@
     margin-top: 5vh;
     margin-bottom: 1vh;
     font-family: 'Oxanium', cursive;
-    background-color: white;
+    background-color: #aaabb8;
     width: 100%;
     min-height: 85vh;
 }
@@ -11,6 +11,7 @@
     margin-left: 100px;
     margin-top: 20px;
     padding-top: 75px;
+    color: #25274d;
 }
 #infoDiv {
     align-self: center;
@@ -23,15 +24,16 @@ i {
     margin-bottom: 10px;
 }
 #infoDiv div {
-    background-color: #66fcf1;
-    color: #1f2833;
+    background-color: #2e9cca;
+    color: #25274d;
 }
 #pastDiv {
     padding: 25px;
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 4%;
-    border-radius: 30px; 
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px #25274d; 
 }
 #programmerDiv {
     padding: 25px;
@@ -39,6 +41,7 @@ i {
     margin-right: 2%;
     margin-top: 4%;
     border-radius: 30px;
+    box-shadow: 5px 5px 5px #25274d;
 }
 #funDiv {
     padding: 25px;
@@ -46,6 +49,7 @@ i {
     margin-right: 2%;
     margin-top: 4%;
     border-radius: 30px;
+    box-shadow: 5px 5px 5px #25274d;
 }
 @media only screen and (max-width: 900px) {
     .aboutDiv h1 {

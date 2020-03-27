@@ -3,24 +3,24 @@ nav {
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
-    background-color: #1f2833;
+    background-color: #25274d;
 }
 .navbar-toggler {
-    background-color: #66fcf1;
+    background-color: #2e9cca;
 }
 #hamburger {
     margin-top: 3px;
     margin-bottom: 0px;
 }
 nav a {
-    color: #66fcf1;
+    color: #2e9cca;
 
 }
 nav a:hover {
-    color: #45a29e;
+    color: #29648a;
 }
 nav button span {
-    background-color: #66fcf1;
+    background-color: #2e9cca;
 }
 .sticky {
     position: fixed;
