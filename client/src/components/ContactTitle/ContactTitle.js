@@ -5,7 +5,7 @@ function ContactTitle() {
     return (
         <div className="contactTitle">
             <h1>Contact Me:</h1>
-            <p>Spicy jalapeno bacon ipsum dolor amet pariatur hamburger deserunt, chislic minim ut ullamco jowl. Bacon meatloaf pork belly tempor frankfurter anim bresaola in excepteur filet mignon shankle chicken incididunt. Ham hock incididunt dolor, pork belly labore enim qui culpa mollit salami. Qui swine aute burgdoggen, minim tongue commodo aliquip shoulder rump short ribs pig corned beef meatloaf ipsum.</p>
+            <p>If you would like to contact me directly, please use the form located below and I will get back to you as soon as I can.<br />At the bottom of the page, you can find links to Facebook, Twitter, LinkedIn, GitHub, and my resume.<br />I am looking forward to working with you.</p>
         </div>
     );
 };
