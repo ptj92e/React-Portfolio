@@ -8,15 +8,15 @@ function About() {
             <div id="infoDiv">
                 <div id="pastDiv">
                     <i className="fas fa-headphones fa-5x"></i>
-                    <p>Spicy jalapeno bacon ipsum dolor amet lorem t-bone sausage ex frankfurter ham hock pastrami tongue. Sausage beef deserunt, chuck irure et ribeye tempor qui. Aute consequat et venison buffalo tenderloin. Pork chop mollit chicken, est burgdoggen pancetta jerky excepteur aliqua.</p>
+                    <p>I am a full stack web developer boasting a background in music education. Music has taught me so many skills necessary for a career in web development. A meticulous attention to detail and the ability to creatively solve problems are just some of the skills I have developed through music. </p>
                 </div>
                 <div id="programmerDiv">
                     <i className="fas fa-laptop-code fa-5x"></i>
-                    <p>Spicy jalapeno bacon ipsum dolor amet lorem t-bone sausage ex frankfurter ham hock pastrami tongue. Sausage beef deserunt, chuck irure et ribeye tempor qui. Aute consequat et venison buffalo tenderloin. Pork chop mollit chicken, est burgdoggen pancetta jerky excepteur aliqua.</p>
+                    <p>I received a full-stack certificate from the Vanderbilt University Coding Bootcamp in Nashville, TN. Some of the areas we studied were HTML, CSS, JavaScript, ES6, Node, Express, mySQL, Mongoose, and React.js just to name a few. If you would like to see more, check out my projects page to see some of the work I have done.</p>
                 </div>
                 <div id="funDiv">
                     <i className="fas fa-dice-d20 fa-5x"></i>
-                    <p>Spicy jalapeno bacon ipsum dolor amet lorem t-bone sausage ex frankfurter ham hock pastrami tongue. Sausage beef deserunt, chuck irure et ribeye tempor qui. Aute consequat et venison buffalo tenderloin. Pork chop mollit chicken, est burgdoggen pancetta jerky excepteur aliqua.</p>
+                    <p>When I a not coding, I enjoy spending time taking care of my mind and body. I enjoy playing video games, board games, and <b>especially</b> Dungeons and Dragons. I also enjoy lifting weights as a way to relieve stress and to take care of myself. I also like to keep my coding skills sharp by always looking for new things to learn.</p>
                 </div>
             </div>
         </div>
