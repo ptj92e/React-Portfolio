@@ -1,35 +1,25 @@
-import React, { Component } from "react";
-import { thisExpression } from "@babel/types";
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import Contact from "../pages/Contact";
 import Home from "../pages/Home";
 import Projects from "../pages/Projects";
 
-class Portfolio extends Component {
-    state= {
-        currentPage: "Home"
-    };
-    handlePageChange = page => {
-        this.setState({ currentPage: page });
-    };
-    renderPage = () => {
-        if (this.state.currentPage === "Home") {
-            return <Home />;
-        } else if (this.state.currentPage === "Projects") {
-            return <Projects />;
-        } else if (this.state.currentPage === "Contact") {
-            return <Contact />
-        }
-    };
-    render() {
-        return (
-            <div className="portfolio">
-                <Navbar currentPage={this.state.currentPage} handlePageChange={this.handlePageChange} />
-                {this.renderPage()}
-                <Footer />
-            </div>
-        );
-    };
+function Portfolio() {
+    return (
+        <div className="portfolio">
+            <Router>
+            <Navbar />
+                <div>
+                    <Route exact path="/" component={Home}/>
+                    <Route exact path="/projects" component={Projects}/>
+                    <Route exact path="/contact" component={Contact}/>
+                </div>
+            <Footer />
+            </Router>
+        </div>
+    );
 };
+
 export default Portfolio;
