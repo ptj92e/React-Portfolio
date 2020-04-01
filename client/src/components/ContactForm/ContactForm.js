@@ -28,8 +28,7 @@ function ContactForm() {
           message: ""
         }))
         .then(() => {
-          console.log("Email Sent.")
-          window.location.reload();
+          alert("Your message has been sent.");
         })
         .catch(err => console.log(err));
     }
