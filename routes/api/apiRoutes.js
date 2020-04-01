@@ -23,7 +23,6 @@ router.post("/send", function (req, res) {
         text: req.body.email + " : " +req.body.message
     };
     transporter.sendMail(mailOptions, (err, info) => {
-        console.log(req.body);
         if (err) {
             return console.log(err);
         }
