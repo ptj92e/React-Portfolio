@@ -1,7 +1,6 @@
 const router = require("express").Router();
-const emailRoutes = require("./send");
+const emailRoutes = require("./apiRoutes");
 
-// Book routes
 router.use("/send", emailRoutes);
 
 module.exports = router;
