@@ -18,3 +18,13 @@
     text-decoration: none;
 
 }
+#iconsDiv i {
+    color: #25274d;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#iconsDiv i:hover {
+    color: #2e9cca;
+    text-decoration: none;
+
+}
