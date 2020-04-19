@@ -16,7 +16,7 @@ function About() {
                 </div>
                 <div id="funDiv">
                     <i className="fas fa-dice-d20 fa-5x"></i>
-                    <p>When I a not coding, I enjoy spending time taking care of my mind and body. I enjoy playing video games, board games, and <b>especially</b> Dungeons and Dragons. I also enjoy lifting weights as a way to relieve stress and to take care of myself. I also like to keep my coding skills sharp by always looking for new things to learn.</p>
+                    <p>When I am not coding, I enjoy spending time taking care of my mind and body. I enjoy playing video games, board games, and <b>especially</b> Dungeons and Dragons. I also enjoy lifting weights as a way to relieve stress and to take care of myself. I also like to keep my coding skills sharp by always looking for new things to learn.</p>
                 </div>
             </div>
         </div>
