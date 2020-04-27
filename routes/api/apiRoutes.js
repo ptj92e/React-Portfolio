@@ -18,7 +18,7 @@ router.route("/")
             }
         });
         let mailOptions = {
-            from: req.body.email,
+            from: EMAIL,
             to: EMAIL,
             subject: req.body.fullName,
             text: req.body.email + " : " + req.body.message
