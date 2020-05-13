@@ -2,6 +2,15 @@
     "projects": [
         {
             "id": 1,
+            "title": "Python Note Taker",
+            "technologies": "HTML, CSS, Python, Flask, Jinja2, SQLite",
+            "description": "A note taking application that uses Python and SQLite to create, update, delete, and view tasks.",
+            "image": "../images/ToDoList.png",
+            "github": "https://github.com/ptj92e/To-Do-Flask",
+            "heroku": "https://python-to-do.herokuapp.com/"
+        },
+        {
+            "id": 2,
             "title": "Stickley Designs",
             "technologies": "React.js, Express, Node, NodeMailer, DotENV",
             "description": "A website I built for a client that designs and writes shows for marching bands. The website is full responsive featuring a contact page to message him directly.",
@@ -10,7 +19,7 @@
             "heroku": "https://stickley-designs.herokuapp.com"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Employee Directory",
             "technologies": "React.js, rest API",
             "description": "An app that displays an Employee Directory from a random user API. The directory can be filtered to show employees based off of gender.",
@@ -19,7 +28,7 @@
             "heroku": "https://obscure-waters-52198.herokuapp.com/"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "The Ender Maze",
             "technologies": "mySQL, Handlebars.js, Express.js",
             "description": "An RPG where you can create your own class and go through a maze as your character fighting enemies and solving puzzles.",
@@ -28,7 +37,7 @@
             "heroku": "https://arcane-plains-16309.herokuapp.com/"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Burger Logger",
             "technologies": "Sequelize, mySQL, Express.js, Handlebars.js",
             "description": "This app allows users to update a burger wish list. There is a button for each burger that, when clicked, shows that you have eaten that burger.",
@@ -37,22 +46,13 @@
             "heroku": "https://immense-shelf-89251.herokuapp.com/"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Note Taker",
             "technologies": "Express, FS",
             "description": "A note taking app that allows users to save notes to a JSON file. The user can view the notes and delete them when they are finished.",
             "image": "../images/NoteTaker.jpg",
             "github": "https://github.com/ptj92e/Note-Taker",
             "heroku": "https://dashboard.heroku.com/apps/warm-refuge-36790"
-        },
-        {
-            "id": 6,
-            "title": "Workout Tracker",
-            "technologies": "",
-            "description": "An application that allows you to keep up with your workouts. You can either update an existing workout, or create a new one.",
-            "image": "../images/WorkoutTracker.jpg",
-            "github": "https://github.com/ptj92e/Workout-Tracker",
-            "heroku": "https://quiet-fortress-04167.herokuapp.com/?id=5e6d0278f48be000174aa6d9"
         }
     ]
 }
