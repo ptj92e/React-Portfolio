@@ -2,6 +2,15 @@
     "projects": [
         {
             "id": 1,
+            "title": "Mesia Mesh",
+            "technologies": "React.js, CSS, Bootstrap, Axios, Node.js, Express.js, Cloudinary, Passport.js, BCrypt, mySQL",
+            "description": "A social media website for artists and creative minds to share their work in a safe and encouraging environment.",
+            "image": "../images/MediaMesh.png",
+            "github": "https://github.com/ptj92e/Media-Mesh",
+            "heroku": "https://media-mesh.herokuapp.com/"
+        },
+        {
+            "id": 2,
             "title": "Python Note Taker",
             "technologies": "HTML, CSS, Python, Flask, Jinja2, SQLite",
             "description": "A note taking application that uses Python and SQLite to create, update, delete, and view tasks.",
@@ -10,7 +19,7 @@
             "heroku": "https://python-to-do.herokuapp.com/"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Stickley Designs",
             "technologies": "React.js, Express, Node, NodeMailer, DotENV",
             "description": "A website I built for a client that designs and writes shows for marching bands. The website is full responsive featuring a contact page to message him directly.",
@@ -19,7 +28,7 @@
             "heroku": "https://stickley-designs.herokuapp.com"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Employee Directory",
             "technologies": "React.js, rest API",
             "description": "An app that displays an Employee Directory from a random user API. The directory can be filtered to show employees based off of gender.",
@@ -28,7 +37,7 @@
             "heroku": "https://obscure-waters-52198.herokuapp.com/"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "The Ender Maze",
             "technologies": "mySQL, Handlebars.js, Express.js",
             "description": "An RPG where you can create your own class and go through a maze as your character fighting enemies and solving puzzles.",
@@ -37,22 +46,13 @@
             "heroku": "https://arcane-plains-16309.herokuapp.com/"
         },
         {
-            "id": 5,
-            "title": "Burger Logger",
-            "technologies": "Sequelize, mySQL, Express.js, Handlebars.js",
-            "description": "This app allows users to update a burger wish list. There is a button for each burger that, when clicked, shows that you have eaten that burger.",
-            "image": "../images/BurgerLogger.jpg",
-            "github": "https://github.com/ptj92e/Burger-Logger",
-            "heroku": "https://immense-shelf-89251.herokuapp.com/"
-        },
-        {
             "id": 6,
-            "title": "Note Taker",
-            "technologies": "Express, FS",
-            "description": "A note taking app that allows users to save notes to a JSON file. The user can view the notes and delete them when they are finished.",
-            "image": "../images/NoteTaker.jpg",
-            "github": "https://github.com/ptj92e/Note-Taker",
-            "heroku": "https://dashboard.heroku.com/apps/warm-refuge-36790"
+            "title": "Got Jobs?",
+            "technologies": "HTML, CSS, Bootstrap, jQuery, API calls,  Themuse API, Mapquest API, Teleport API, Plotly",
+            "description": "A job search app for someone looking to relocate to a new city. The user searches for a city and job type and the page populates with job information and quality of life information for the city. ",
+            "image": "../images/GotJobs.png",
+            "github": "https://github.com/ptj92e/GotJobs",
+            "heroku": "https://ptj92e.github.io/GotJobs/"
         }
     ]
 }
